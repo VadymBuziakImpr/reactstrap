@@ -59,6 +59,7 @@ class DropdownMenu extends React.Component {
         <Popper
           placement={poperPlacement}
           modifiers={poperModifiers}
+          positionFixed
         >
           {({ ref, style, placement }) => (
             <Tag
